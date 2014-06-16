@@ -1,3 +1,55 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	margin: 0;
+	padding: 0;
+} 
+
+.first-element {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.small-part {
+	background-color: #5472CC;
+	height: 100%;
+	width: 35%;
+	float: left;
+	position: absolute;
+}
+
+.main-picture {
+	background-image: url('reader.png');
+	margin: 0 auto;
+	vertical-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.large-part {
+	background-color: #809AE5;
+	height: 100%;
+	width: 65%;
+	float: right;
+}
+
+.left-part {
+	background-color: #69D169;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.right-part {
+	background-color: #24B524;
+	height: 100%;
+	width: 50%;
+	float: right;
+}
